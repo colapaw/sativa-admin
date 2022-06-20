@@ -1,59 +1,86 @@
-# sativa-admin
+<h1>sativa-admin</h1>
 
-This template should help get you started developing with Vue 3 in Vite.
+<p align="center">
+  <a href="https://github.com/vuejs/core">
+    <img src="https://img.shields.io/badge/vue-3.2.37-brightgreen.svg" alt="vue">
+  </a>
+  <a href="https://github.com/vitejs/vite">
+    <img src="https://img.shields.io/badge/vite-2.9.12-brightgreen.svg" alt="vue">
+  </a>
+  <a href="https://github.com/vuejs/pinia">
+    <img src="https://img.shields.io/badge/pinia-2.0.14-brightgreen.svg" alt="vue">
+  </a>
+  <a href="https://github.com/colapaw/sativa-admin/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/colapaw/sativa-admin">
+  </a>
+  <a href="https://github.com/colapaw/sativa-admin/releases">
+    <img src="https://img.shields.io/github/v/release/colapaw/sativa-admin.svg" alt="GitHub release">
+  </a>
+</p>
 
-## Recommended IDE Setup
+## 简介
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+sativa-admin 使用了最新的`vue3.2+` `vite2` `naive-ui` `TypeScript` `Tailwind CSS`等主流技术开发，希望能和大家一起学习最新前端技术。
 
-## Type Support for `.vue` Imports in TS
+## 已实现功能
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+- [ ] 路由集成 🧭
+- [ ] 状态管理集成（Pinia）🍍
+- [ ] Hooks集成（VueUse）🪝
+- [ ] NaiveUI 集成 🖌️
+- [ ] Tailwind CSS集成 🌹
+- [ ] Axios二次封装 📦
+- [ ] i18n国际化集成 🌍
+- [ ] 代码规范集成（EditorConfig、Eslint、Prettier、Husky、Lint-staged）📒
+- [ ] 封装常用通知、表格Hooks 🎺
+- [ ] Echarts图表组件库引入 🪐
+- [ ] 富文本编辑器引入（WangEditor）📝
+- [ ] Mock引入 🔍
+- [ ] 支持暗黑模式 🎆
+- [ ] unplugin-icons引入，配合unplugin-components，无需注册即可按需访问数千个图标作为组件 😊
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+## 安装使用
 
-## Customize configuration
+- 获取项目代码
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
+```bash
+git clone https://github.com/colapaw/sativa-admin.git
 ```
 
-### Compile and Hot-Reload for Development
+- 安装依赖
 
-```sh
+```bash
+cd sativa-admin
+
+pnpm install
+
+```
+
+- 运行
+
+```bash
 pnpm dev
 ```
 
-### Type-Check, Compile and Minify for Production
+## Git 贡献提交规范
 
-```sh
-pnpm build
+项目已经内置angular提交规范，通过cz 代替git commit 命令即可
+
+```bash
+pnpm commit
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+## 运行截图
 
-```sh
-pnpm test:unit
-```
+## 浏览器支持
 
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
+本地开发推荐使用`Chrome 90+` 浏览器
 
-```sh
-pnpm build
-pnpm test:e2e # or `pnpm test:e2e:ci` for headless testing
-```
+支持现代浏览器, 不支持 IE
 
-### Lint with [ESLint](https://eslint.org/)
+| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/archive/internet-explorer_9-11/internet-explorer_9-11_48x48.png" alt="IE" width="24px" height="24px"  />](http://godban.github.io/browsers-support-badges/)IE | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt=" Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)Safari |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|                         not support                          |                       last 2 versions                        |                       last 2 versions                        |                       last 2 versions                        |                       last 2 versions                        |
 
-```sh
-pnpm lint
-```
+## Q&A

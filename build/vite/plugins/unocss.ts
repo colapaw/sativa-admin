@@ -1,3 +1,3 @@
-import unocss from "unocss/vite";
+import unocss from 'unocss/vite';
 
 export default unocss();
